@@ -30,12 +30,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraBars.Alerter.AlertButton alertButton5 = new DevExpress.XtraBars.Alerter.AlertButton();
+            DevExpress.XtraBars.Alerter.AlertButton alertButton6 = new DevExpress.XtraBars.Alerter.AlertButton();
             this.tileBar = new DevExpress.XtraBars.Navigation.TileBar();
             this.tileBarGroupTables = new DevExpress.XtraBars.Navigation.TileBarGroup();
             this.WordsTileBarItem = new DevExpress.XtraBars.Navigation.TileBarItem();
@@ -53,6 +55,22 @@
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.employeesLabelControl = new DevExpress.XtraEditors.LabelControl();
             this.customersNavigationPage = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.saveSettingsBtn = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.intervalEdit = new DevExpress.XtraEditors.TimeSpanEdit();
+            this.scheduleControl = new DevExpress.XtraEditors.GroupControl();
+            this.SundayEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SaturdayEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.FridayEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.ThursdayEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.WednesdayEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.TuesdayEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.MondayEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.tillEdit = new DevExpress.XtraEditors.TimeSpanEdit();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.fromEdit = new DevExpress.XtraEditors.TimeSpanEdit();
+            this.useScheduleEdit = new DevExpress.XtraEditors.CheckEdit();
             this.customersLabelControl = new DevExpress.XtraEditors.LabelControl();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
@@ -63,6 +81,7 @@
             this.pauseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alertControl = new DevExpress.XtraBars.Alerter.AlertControl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).BeginInit();
             this.navigationFrame.SuspendLayout();
             this.employeesNavigationPage.SuspendLayout();
@@ -70,6 +89,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.gvWords)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             this.customersNavigationPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.intervalEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scheduleControl)).BeginInit();
+            this.scheduleControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SundayEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaturdayEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FridayEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThursdayEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WednesdayEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TuesdayEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MondayEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tillEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fromEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.useScheduleEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
             this.notifyMenuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -130,9 +162,9 @@
             this.WordsTileBarItem.AppearanceItem.Normal.Options.UseBackColor = true;
             this.WordsTileBarItem.AppearanceItem.Normal.Options.UseFont = true;
             this.WordsTileBarItem.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement1.Image = global::MyWordsNotificator.Properties.Resources._3d_dictionary;
-            tileItemElement1.Text = "Dictionary";
-            this.WordsTileBarItem.Elements.Add(tileItemElement1);
+            tileItemElement7.Image = global::MyWordsNotificator.Properties.Resources._3d_dictionary;
+            tileItemElement7.Text = "Dictionary";
+            this.WordsTileBarItem.Elements.Add(tileItemElement7);
             this.WordsTileBarItem.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.WordsTileBarItem.Name = "WordsTileBarItem";
             this.WordsTileBarItem.ShowItemShadow = DevExpress.Utils.DefaultBoolean.False;
@@ -144,12 +176,13 @@
             this.settingsTileBarItem.AppearanceItem.Normal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.settingsTileBarItem.AppearanceItem.Normal.Options.UseFont = true;
             this.settingsTileBarItem.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement2.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement2.Image")));
-            tileItemElement2.Text = "Settings";
-            this.settingsTileBarItem.Elements.Add(tileItemElement2);
+            tileItemElement8.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement8.Image")));
+            tileItemElement8.Text = "Settings";
+            this.settingsTileBarItem.Elements.Add(tileItemElement8);
             this.settingsTileBarItem.Id = 2;
             this.settingsTileBarItem.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.settingsTileBarItem.Name = "settingsTileBarItem";
+            this.settingsTileBarItem.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.settingsTileBarItem_ItemClick);
             // 
             // hideBarItem
             // 
@@ -159,15 +192,15 @@
             this.hideBarItem.AppearanceItem.Normal.Options.UseFont = true;
             this.hideBarItem.AppearanceItem.Normal.Options.UseTextOptions = true;
             this.hideBarItem.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
-            tileItemElement3.Image = global::MyWordsNotificator.Properties.Resources.minimize;
-            tileItemElement3.Text = "Hide";
-            this.hideBarItem.Elements.Add(tileItemElement3);
+            tileItemElement9.Image = global::MyWordsNotificator.Properties.Resources.minimize;
+            tileItemElement9.Text = "Hide";
+            this.hideBarItem.Elements.Add(tileItemElement9);
             this.hideBarItem.Id = 3;
             this.hideBarItem.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Medium;
             this.hideBarItem.Name = "hideBarItem";
-            toolTipItem1.Text = "Hide window";
-            superToolTip1.Items.Add(toolTipItem1);
-            this.hideBarItem.SuperTip = superToolTip1;
+            toolTipItem3.Text = "Hide window";
+            superToolTip3.Items.Add(toolTipItem3);
+            this.hideBarItem.SuperTip = superToolTip3;
             this.hideBarItem.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.hideBarItem_ItemClick);
             // 
             // navigationFrame
@@ -188,6 +221,7 @@
             // 
             // employeesNavigationPage
             // 
+            this.employeesNavigationPage.Caption = "employeesNavigationPage";
             this.employeesNavigationPage.Controls.Add(this.gcWords);
             this.employeesNavigationPage.Controls.Add(this.employeesLabelControl);
             this.employeesNavigationPage.Name = "employeesNavigationPage";
@@ -340,9 +374,206 @@
             // customersNavigationPage
             // 
             this.customersNavigationPage.Caption = "customersNavigationPage";
+            this.customersNavigationPage.Controls.Add(this.saveSettingsBtn);
+            this.customersNavigationPage.Controls.Add(this.labelControl3);
+            this.customersNavigationPage.Controls.Add(this.intervalEdit);
+            this.customersNavigationPage.Controls.Add(this.scheduleControl);
+            this.customersNavigationPage.Controls.Add(this.useScheduleEdit);
             this.customersNavigationPage.Controls.Add(this.customersLabelControl);
             this.customersNavigationPage.Name = "customersNavigationPage";
             this.customersNavigationPage.Size = new System.Drawing.Size(444, 296);
+            // 
+            // saveSettingsBtn
+            // 
+            this.saveSettingsBtn.Location = new System.Drawing.Point(357, 243);
+            this.saveSettingsBtn.Name = "saveSettingsBtn";
+            this.saveSettingsBtn.Size = new System.Drawing.Size(75, 23);
+            this.saveSettingsBtn.TabIndex = 14;
+            this.saveSettingsBtn.Text = "Save";
+            this.saveSettingsBtn.Click += new System.EventHandler(this.saveSettingsBtn_Click);
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelControl3.Appearance.Options.UseFont = true;
+            this.labelControl3.Location = new System.Drawing.Point(12, 58);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(52, 16);
+            this.labelControl3.TabIndex = 13;
+            this.labelControl3.Text = "Interval";
+            // 
+            // intervalEdit
+            // 
+            this.intervalEdit.EditValue = System.TimeSpan.Parse("00:00:00");
+            this.intervalEdit.Location = new System.Drawing.Point(93, 57);
+            this.intervalEdit.Name = "intervalEdit";
+            this.intervalEdit.Properties.AllowEditDays = false;
+            this.intervalEdit.Properties.AllowEditSeconds = false;
+            this.intervalEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.intervalEdit.Properties.DisplayFormat.FormatString = "HH:mm";
+            this.intervalEdit.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.intervalEdit.Properties.Mask.EditMask = "HH:mm";
+            this.intervalEdit.Size = new System.Drawing.Size(57, 20);
+            this.intervalEdit.TabIndex = 12;
+            // 
+            // scheduleControl
+            // 
+            this.scheduleControl.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.scheduleControl.Appearance.Options.UseFont = true;
+            this.scheduleControl.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.scheduleControl.AppearanceCaption.Options.UseFont = true;
+            this.scheduleControl.CaptionLocation = DevExpress.Utils.Locations.Top;
+            this.scheduleControl.Controls.Add(this.SundayEdit);
+            this.scheduleControl.Controls.Add(this.SaturdayEdit);
+            this.scheduleControl.Controls.Add(this.FridayEdit);
+            this.scheduleControl.Controls.Add(this.ThursdayEdit);
+            this.scheduleControl.Controls.Add(this.WednesdayEdit);
+            this.scheduleControl.Controls.Add(this.TuesdayEdit);
+            this.scheduleControl.Controls.Add(this.MondayEdit);
+            this.scheduleControl.Controls.Add(this.tillEdit);
+            this.scheduleControl.Controls.Add(this.labelControl2);
+            this.scheduleControl.Controls.Add(this.labelControl1);
+            this.scheduleControl.Controls.Add(this.fromEdit);
+            this.scheduleControl.Enabled = false;
+            this.scheduleControl.Location = new System.Drawing.Point(12, 109);
+            this.scheduleControl.Name = "scheduleControl";
+            this.scheduleControl.Size = new System.Drawing.Size(420, 111);
+            this.scheduleControl.TabIndex = 8;
+            this.scheduleControl.Text = "Schedule settings";
+            // 
+            // SundayEdit
+            // 
+            this.SundayEdit.Location = new System.Drawing.Point(110, 77);
+            this.SundayEdit.Name = "SundayEdit";
+            this.SundayEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SundayEdit.Properties.Appearance.Options.UseFont = true;
+            this.SundayEdit.Properties.Caption = "Sunday";
+            this.SundayEdit.Size = new System.Drawing.Size(89, 19);
+            this.SundayEdit.TabIndex = 20;
+            // 
+            // SaturdayEdit
+            // 
+            this.SaturdayEdit.Location = new System.Drawing.Point(15, 77);
+            this.SaturdayEdit.Name = "SaturdayEdit";
+            this.SaturdayEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SaturdayEdit.Properties.Appearance.Options.UseFont = true;
+            this.SaturdayEdit.Properties.Caption = "Saturday";
+            this.SaturdayEdit.Size = new System.Drawing.Size(89, 19);
+            this.SaturdayEdit.TabIndex = 19;
+            // 
+            // FridayEdit
+            // 
+            this.FridayEdit.Location = new System.Drawing.Point(331, 52);
+            this.FridayEdit.Name = "FridayEdit";
+            this.FridayEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FridayEdit.Properties.Appearance.Options.UseFont = true;
+            this.FridayEdit.Properties.Caption = "Friday";
+            this.FridayEdit.Size = new System.Drawing.Size(89, 19);
+            this.FridayEdit.TabIndex = 18;
+            // 
+            // ThursdayEdit
+            // 
+            this.ThursdayEdit.Location = new System.Drawing.Point(253, 52);
+            this.ThursdayEdit.Name = "ThursdayEdit";
+            this.ThursdayEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ThursdayEdit.Properties.Appearance.Options.UseFont = true;
+            this.ThursdayEdit.Properties.Caption = "Thursday";
+            this.ThursdayEdit.Size = new System.Drawing.Size(89, 19);
+            this.ThursdayEdit.TabIndex = 17;
+            // 
+            // WednesdayEdit
+            // 
+            this.WednesdayEdit.Location = new System.Drawing.Point(158, 52);
+            this.WednesdayEdit.Name = "WednesdayEdit";
+            this.WednesdayEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WednesdayEdit.Properties.Appearance.Options.UseFont = true;
+            this.WednesdayEdit.Properties.Caption = "Wednesday";
+            this.WednesdayEdit.Size = new System.Drawing.Size(89, 19);
+            this.WednesdayEdit.TabIndex = 16;
+            // 
+            // TuesdayEdit
+            // 
+            this.TuesdayEdit.Location = new System.Drawing.Point(81, 52);
+            this.TuesdayEdit.Name = "TuesdayEdit";
+            this.TuesdayEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TuesdayEdit.Properties.Appearance.Options.UseFont = true;
+            this.TuesdayEdit.Properties.Caption = "Tuesday";
+            this.TuesdayEdit.Size = new System.Drawing.Size(75, 19);
+            this.TuesdayEdit.TabIndex = 15;
+            // 
+            // MondayEdit
+            // 
+            this.MondayEdit.Location = new System.Drawing.Point(15, 52);
+            this.MondayEdit.Name = "MondayEdit";
+            this.MondayEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MondayEdit.Properties.Appearance.Options.UseFont = true;
+            this.MondayEdit.Properties.Caption = "Monday";
+            this.MondayEdit.Size = new System.Drawing.Size(75, 19);
+            this.MondayEdit.TabIndex = 14;
+            // 
+            // tillEdit
+            // 
+            this.tillEdit.EditValue = System.TimeSpan.Parse("00:00:00");
+            this.tillEdit.Location = new System.Drawing.Point(158, 26);
+            this.tillEdit.Name = "tillEdit";
+            this.tillEdit.Properties.AllowEditDays = false;
+            this.tillEdit.Properties.AllowEditSeconds = false;
+            this.tillEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.tillEdit.Properties.DisplayFormat.FormatString = "HH:mm";
+            this.tillEdit.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.tillEdit.Properties.Mask.EditMask = "HH:mm";
+            this.tillEdit.Size = new System.Drawing.Size(57, 20);
+            this.tillEdit.TabIndex = 11;
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelControl2.Appearance.Options.UseFont = true;
+            this.labelControl2.Location = new System.Drawing.Point(136, 27);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(15, 16);
+            this.labelControl2.TabIndex = 10;
+            this.labelControl2.Text = "To";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Location = new System.Drawing.Point(15, 27);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(31, 16);
+            this.labelControl1.TabIndex = 9;
+            this.labelControl1.Text = "From";
+            // 
+            // fromEdit
+            // 
+            this.fromEdit.EditValue = System.TimeSpan.Parse("00:00:00");
+            this.fromEdit.Location = new System.Drawing.Point(56, 26);
+            this.fromEdit.Name = "fromEdit";
+            this.fromEdit.Properties.AllowEditDays = false;
+            this.fromEdit.Properties.AllowEditSeconds = false;
+            this.fromEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fromEdit.Properties.Appearance.Options.UseFont = true;
+            this.fromEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.fromEdit.Properties.DisplayFormat.FormatString = "HH:mm";
+            this.fromEdit.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.fromEdit.Properties.Mask.EditMask = "HH:mm";
+            this.fromEdit.Size = new System.Drawing.Size(57, 20);
+            this.fromEdit.TabIndex = 6;
+            // 
+            // useScheduleEdit
+            // 
+            this.useScheduleEdit.Location = new System.Drawing.Point(12, 83);
+            this.useScheduleEdit.Name = "useScheduleEdit";
+            this.useScheduleEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.useScheduleEdit.Properties.Appearance.Options.UseFont = true;
+            this.useScheduleEdit.Properties.Caption = "Schedule";
+            this.useScheduleEdit.Size = new System.Drawing.Size(75, 20);
+            this.useScheduleEdit.TabIndex = 3;
+            this.useScheduleEdit.CheckedChanged += new System.EventHandler(this.useScheduleEdit_CheckedChanged);
             // 
             // customersLabelControl
             // 
@@ -352,7 +583,7 @@
             this.customersLabelControl.Appearance.Options.UseForeColor = true;
             this.customersLabelControl.Appearance.Options.UseTextOptions = true;
             this.customersLabelControl.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.customersLabelControl.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.customersLabelControl.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.customersLabelControl.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.customersLabelControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.customersLabelControl.Location = new System.Drawing.Point(0, 0);
@@ -385,7 +616,7 @@
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.notifyMenuStrip.Name = "notifyMenuStrip";
-            this.notifyMenuStrip.Size = new System.Drawing.Size(129, 98);
+            this.notifyMenuStrip.Size = new System.Drawing.Size(153, 120);
             // 
             // showToolStripMenuItem
             // 
@@ -399,15 +630,18 @@
             // 
             this.continueToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("continueToolStripMenuItem.Image")));
             this.continueToolStripMenuItem.Name = "continueToolStripMenuItem";
-            this.continueToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.continueToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.continueToolStripMenuItem.Text = "Continue";
+            this.continueToolStripMenuItem.Visible = false;
+            this.continueToolStripMenuItem.Click += new System.EventHandler(this.continueToolStripMenuItem_Click);
             // 
             // pauseToolStripMenuItem
             // 
             this.pauseToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pauseToolStripMenuItem.Image")));
             this.pauseToolStripMenuItem.Name = "pauseToolStripMenuItem";
-            this.pauseToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.pauseToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.pauseToolStripMenuItem.Text = "Pause";
+            this.pauseToolStripMenuItem.Click += new System.EventHandler(this.pauseToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -421,6 +655,24 @@
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // alertControl
+            // 
+            this.alertControl.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.alertControl.AppearanceCaption.Options.UseFont = true;
+            this.alertControl.AppearanceHotTrackedText.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.alertControl.AppearanceHotTrackedText.Options.UseFont = true;
+            this.alertControl.AppearanceText.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.alertControl.AppearanceText.Options.UseFont = true;
+            this.alertControl.AutoFormDelay = 60000;
+            this.alertControl.AutoHeight = true;
+            alertButton5.Image = global::MyWordsNotificator.Properties.Resources.translate;
+            alertButton5.Name = "translateBtn";
+            alertButton6.Image = global::MyWordsNotificator.Properties.Resources.remove;
+            alertButton6.Name = "deleteBtn";
+            this.alertControl.Buttons.Add(alertButton5);
+            this.alertControl.Buttons.Add(alertButton6);
+            this.alertControl.ButtonClick += new DevExpress.XtraBars.Alerter.AlertButtonClickEventHandler(this.alertControl_ButtonClick);
             // 
             // MainForm
             // 
@@ -452,6 +704,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.gvWords)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             this.customersNavigationPage.ResumeLayout(false);
+            this.customersNavigationPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.intervalEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scheduleControl)).EndInit();
+            this.scheduleControl.ResumeLayout(false);
+            this.scheduleControl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SundayEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaturdayEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FridayEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThursdayEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WednesdayEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TuesdayEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MondayEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tillEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fromEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.useScheduleEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
             this.notifyMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -487,5 +754,22 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pauseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem continueToolStripMenuItem;
+        private DevExpress.XtraEditors.TimeSpanEdit fromEdit;
+        private DevExpress.XtraEditors.CheckEdit useScheduleEdit;
+        private DevExpress.XtraEditors.GroupControl scheduleControl;
+        private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.TimeSpanEdit tillEdit;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.TimeSpanEdit intervalEdit;
+        private DevExpress.XtraEditors.SimpleButton saveSettingsBtn;
+        private DevExpress.XtraEditors.CheckEdit SundayEdit;
+        private DevExpress.XtraEditors.CheckEdit SaturdayEdit;
+        private DevExpress.XtraEditors.CheckEdit FridayEdit;
+        private DevExpress.XtraEditors.CheckEdit ThursdayEdit;
+        private DevExpress.XtraEditors.CheckEdit WednesdayEdit;
+        private DevExpress.XtraEditors.CheckEdit TuesdayEdit;
+        private DevExpress.XtraEditors.CheckEdit MondayEdit;
+        private DevExpress.XtraBars.Alerter.AlertControl alertControl;
     }
 }

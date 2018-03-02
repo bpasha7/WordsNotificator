@@ -13,5 +13,6 @@ namespace MyWordsNotificator
         public string Description { set; get; }
         public bool Skip { get; set; }
         public int Shown { get; set; }
+        public DateTime? LastTick { get; set; }
     }
 }
