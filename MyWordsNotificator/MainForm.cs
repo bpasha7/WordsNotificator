@@ -98,7 +98,7 @@ namespace MyWordsNotificator
                 WednesdayEdit.Checked = _settings.Days["WEDNESDAY"];
                 ThursdayEdit.Checked = _settings.Days["THURSDAY"];
                 FridayEdit.Checked = _settings.Days["FRIDAY"];
-                SaturdayEdit.Checked = _settings.Days["SATURDSY"];
+                SaturdayEdit.Checked = _settings.Days["SATURDAY"];
                 SundayEdit.Checked = _settings.Days["SUNDAY"];
             }
         }
@@ -117,7 +117,7 @@ namespace MyWordsNotificator
                 WednesdayEdit.Checked = _settings.Days["WEDNESDAY"];
                 ThursdayEdit.Checked = _settings.Days["THURSDAY"];
                 FridayEdit.Checked = _settings.Days["FRIDAY"];
-                SaturdayEdit.Checked = _settings.Days["SATURDSY"];
+                SaturdayEdit.Checked = _settings.Days["SATURDAY"];
                 SundayEdit.Checked = _settings.Days["SUNDAY"];
             }
         }
